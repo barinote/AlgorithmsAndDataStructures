@@ -64,7 +64,6 @@ print("Adding(front):\t myLIST {}\t| pyLIST {}".format(mySave, pySave))
 
 myList = UnorderedList()
 pyList = list()
-
 for x in range(size):
     myList.add(x)
     pyList.insert(0, x)
